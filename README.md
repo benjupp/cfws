@@ -14,4 +14,4 @@ git commit
 *note: these git commands are not mandatory, ensure all changes have been added and comitted before deploying.
 
 To make the new build live run:
-```git push heroku master``` from /app
+```git push heroku master``` from /app. This will deploy the new build to the heroku server.
