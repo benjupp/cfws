@@ -12,6 +12,7 @@ git add -A
 git commit 
 ```
 *Note: these git commands are not mandatory, ensure all changes have been added and comitted before deploying.
+The /app directory is a separate git repository that points to heroku, within the project.
 
 To make the new build live run:
 ```git push heroku master``` from /app. This will deploy the new build to the heroku server.
